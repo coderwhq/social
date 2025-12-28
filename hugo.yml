@@ -1,0 +1,43 @@
+baseURL: "http://social.coderwhq.link/"
+languageCode: zh-cn
+title: Coderwhq's Blog
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Welcome to Coderwhq's blog
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/coderwhq"
+    - name: "twitter"
+      url: "https://x.com/pboy7777777"
+
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home 
+      url: /
+      weight: 10
+    - identifier: post
+      name: Post
+      url: /post/
+      weight: 20
+    - identifier: Tag
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
