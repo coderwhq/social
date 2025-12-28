@@ -23,9 +23,9 @@ menu:
       name: Home 
       url: /
       weight: 10
-    - identifier: post
-      name: Post
-      url: /post/
+    - identifier: archive
+      name: Archives
+      url: /archives/
       weight: 20
     - identifier: Tag
       name: Tags
